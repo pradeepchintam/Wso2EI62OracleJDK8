@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.ei.analytics.elk" label="WSO2 Enterprise Integrator - Analytics ELK Feature" provider-name="%providerName" version="6.2.0">
+  <description>This feature contains the bundles required for Enterprise Integrator ELK Analytics functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.ei.analytics.elk" unpack="false" version="6.2.0"/>
+</feature>

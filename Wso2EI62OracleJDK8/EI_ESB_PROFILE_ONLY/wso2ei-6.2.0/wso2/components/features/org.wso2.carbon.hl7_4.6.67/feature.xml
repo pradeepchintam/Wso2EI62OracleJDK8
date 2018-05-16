@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.hl7" label="WSO2 Carbon - Business Adaptor HL7 Feature" provider-name="%providerName" version="4.6.67">
+  <description>This feature contains the HL7 core feature</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.business.messaging.hl7.store.ui" unpack="false" version="4.6.67"/>
+  <plugin id="hapi" unpack="false" version="2.1.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.business.messaging.hl7.common" unpack="false" version="4.6.67"/>
+  <plugin id="openjpa-all" unpack="false" version="2.2.2.wso2v1"/>
+  <plugin id="org.wso2.carbon.business.messaging.hl7.transport" unpack="false" version="4.6.67"/>
+  <plugin id="org.wso2.carbon.business.messaging.hl7.message" unpack="false" version="4.6.67"/>
+  <plugin id="org.wso2.carbon.business.messaging.hl7.store" unpack="false" version="4.6.67"/>
+  <require>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.4.24"/>
+  </require>
+</feature>

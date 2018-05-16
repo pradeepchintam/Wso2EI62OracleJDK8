@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.datasource.reader.mongo.server" label="WSO2 Carbon - MongoDB Data Source Reader Server Feature" provider-name="%providerName" version="4.4.42">
+  <description>This feature contains the bundles required for MongoDB Data Source Reader Implementation</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.mongodb.mongo-java-driver" unpack="false" version="3.4.1"/>
+  <plugin id="org.wso2.carbon.datasource.reader.mongo" unpack="false" version="4.4.42"/>
+  <require>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.4.24"/>
+  </require>
+</feature>
